@@ -6,10 +6,10 @@ grad_semester = "Spring 2029"
 major = "Computer Science"
 
 # Academic data lists
-current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
-completed_courses = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
-credit_hrs = [3, 3, 3, 3]
-gpa_history = [3.2, 3.6, 3.4, 3.7]
+current_courses = ["COMP 163", "MATH 131", "ENG 100", "HIST 106", "COMP 121", "GEEN 111"]
+completed_courses = []
+credit_hrs = [3, 4, 3, 3, 1, 1]
+gpa_history = [4.0]
 
 # Contact info tuples
 emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
@@ -26,9 +26,9 @@ hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
 entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
 
 # Organizational mapping dictionaries
-course_credits = {"COMP 163" : 3, "MATH 150" : 3, "ENG 101" : 3, "HIS 105" : 3}
-course_professors = {"COMP 163": "Prof. Rhodes", "MATH 150" : "Dr. Lee", "ENG 101" : "Dr. Martinez", "HIS 105" : "Dr. Brown"}
-course_rooms = {"COMP 163" : "M-Eric 300", "MATH 150" : "Marteena 201", "ENG 101" : "Crosby 121", "HIS 105" : "Crosby 210"}
+course_credits = {"COMP 163" : 3, "MATH 131" : 4, "ENG 100" : 3, "HIST 106" : 3, "COMP 121" : 1, "GEEN 111" : 1}
+course_professors = {"COMP 163": "Prof. Rhodes", "MATH 131" : "Dr. Roop", "ENG 100" : "Prof. Rhodes", "HIST 106" : "Prof. Devoe", "COMP 121" : "Prof. Rhodes", "GEEN 111" : "Dr. Parrish"}
+course_rooms = {"COMP 163" : "Gibbs 337", "MATH 131" : "Marteena 216", "ENG 100" : "Merrick 327", "HIST 106" : "N/A", "COMP 121" : "Graham 210", "GEEN 111" : "McNair 240"}
 monthly_budget = {"Food" : 450, "Entertainment" : 200, "Books" : 125, "Transportation" : 100}
 study_hrs = {"Programming" : 10, "Math" : 8, "English" : 4, "History" : 3}
 contact_directory = {"Mom" : "704-555-0199", "Roommate" : "336-555-7821", "Academic Advisor" : "336-334-5000"}
@@ -61,9 +61,11 @@ print("Academic Investment:", f"${study_cost_per_hr:.1f}", "per study hour")
 print()
 print("Current Courses:")
 print(current_courses[0], "-", course_credits["COMP 163"], "credits -", course_professors["COMP 163"], "-", course_rooms["COMP 163"])
-print(current_courses[1], "-", course_credits["MATH 150"], "credits -", course_professors["MATH 150"], "-", course_rooms["MATH 150"])
-print(current_courses[2], "-", course_credits["ENG 101"], "credits -", course_professors["ENG 101"], "-", course_rooms["ENG 101"])
-print(current_courses[3], "-", course_credits["HIS 105"], "credits -", course_professors["HIS 105"], "-", course_rooms["HIS 105"])
+print(current_courses[1], "-", course_credits["MATH 131"], "credits -", course_professors["MATH 131"], "-", course_rooms["MATH 131"])
+print(current_courses[2], "-", course_credits["ENG 100"], "credits -", course_professors["ENG 100"], "-", course_rooms["ENG 100"])
+print(current_courses[3], "-", course_credits["HIST 106"], "credits -", course_professors["HIST 106"], "-", course_rooms["HIST 106"])
+print(current_courses[4], "-", course_credits["COMP 121"], "credits -", course_professors["COMP 121"], "-", course_rooms["COMP 121"])
+print(current_courses[5], "-", course_credits["GEEN 111"], "credits -", course_professors["GEEN 111"], "-", course_rooms["GEEN 111"])
 print()
 print("=== PERSONAL DEVELOPMENT ===")
 print("Current Skills:", current_skills)
@@ -92,4 +94,5 @@ print("Current Academic Load:", academic_load, "weekly commitments")
 print("Entertainment Backlog:", len(entertainment_backlog), "items")
 print("Current Hobbies:", len(hobbies), "activities")
 print("================================================================")
+
 

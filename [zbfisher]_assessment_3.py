@@ -12,11 +12,11 @@ credit_hrs = [3, 4, 3, 3, 1, 1]
 gpa_history = [4.0]
 
 # Contact info tuples
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
-home_address = ("456 Oak Street", "Charlotte, NC", "28202")
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "@jordandev", 127)
-birthday = ("Birthday", 5, 22, 2006)
+emergency_contact = ("Mom", "Pheshetta Fisher", "704-555-0199")
+home_address = ("8701 Londonshire Drive", "Charlotte, NC", "28216")
+instagram_info = ("Instagram", "@kpuriiii", 23)
+twitter_info = ("Twitter", "@kpuriiii", 1)
+birthday = ("Birthday", 9, 15, 2007)
 
 # Interest tracking sets
 current_skills = {"Python basics", "JavaScript basics", "Java basics", "Problem solving", "Time management", "Data entry"}
@@ -29,7 +29,7 @@ entertainment_backlog = {"One Piece", "Youtube"}
 course_credits = {"COMP 163" : 3, "MATH 131" : 4, "ENG 100" : 3, "HIST 106" : 3, "COMP 121" : 1, "GEEN 111" : 1}
 course_professors = {"COMP 163": "Prof. Rhodes", "MATH 131" : "Dr. Roop", "ENG 100" : "Prof. Rhodes", "HIST 106" : "Prof. Devoe", "COMP 121" : "Prof. Rhodes", "GEEN 111" : "Dr. Parrish"}
 course_rooms = {"COMP 163" : "Gibbs 337", "MATH 131" : "Marteena 216", "ENG 100" : "Merrick 327", "HIST 106" : "N/A", "COMP 121" : "Graham 210", "GEEN 111" : "McNair 240"}
-monthly_budget = {"Food" : 450, "Entertainment" : 200, "Books" : 125, "Transportation" : 100}
+monthly_budget = {"Food" : 200, "Entertainment" : 10, "Books" : 20, "Transportation" : 100}
 study_hrs = {"Programming" : 10, "Math" : 8, "English" : 4, "History" : 3}
 contact_directory = {"Mom" : "704-555-0199", "Roommate" : "336-555-7821", "Academic Advisor" : "336-334-5000"}
 
@@ -94,6 +94,7 @@ print("Current Academic Load:", academic_load, "weekly commitments")
 print("Entertainment Backlog:", len(entertainment_backlog), "items")
 print("Current Hobbies:", len(hobbies), "activities")
 print("================================================================")
+
 
 
 

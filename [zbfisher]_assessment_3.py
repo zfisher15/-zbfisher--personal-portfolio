@@ -19,11 +19,11 @@ twitter_info = ("Twitter", "@jordandev", 127)
 birthday = ("Birthday", 5, 22, 2006)
 
 # Interest tracking sets
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
-skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interests = {"Software development", "Web development", "Data science", "Game development"}
-hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+current_skills = {"Python basics", "JavaScript basics", "Java basics", "Problem solving", "Time management", "Data entry"}
+skills_to_learn = {"C++", "Cybersecurity", "Game design", "Game programming"}
+career_interests = {"Software development", "Game development"}
+hobbies = {"Gaming", "Gardening", "Drawing"}
+entertainment_backlog = {"One Piece", "Youtube"}
 
 # Organizational mapping dictionaries
 course_credits = {"COMP 163" : 3, "MATH 131" : 4, "ENG 100" : 3, "HIST 106" : 3, "COMP 121" : 1, "GEEN 111" : 1}
@@ -94,5 +94,6 @@ print("Current Academic Load:", academic_load, "weekly commitments")
 print("Entertainment Backlog:", len(entertainment_backlog), "items")
 print("Current Hobbies:", len(hobbies), "activities")
 print("================================================================")
+
 
 

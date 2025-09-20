@@ -1,8 +1,8 @@
 # Personal info
-name = "Jordan Smith"
-email = "jsmith@ncat.edu"
+name = "Zian Fisher"
+email = "zbfisher@ncat.edu"
 hometown = "Charlotte, NC"
-grad_semester = "Spring 2028"
+grad_semester = "Spring 2029"
 major = "Computer Science"
 
 # Academic data lists
@@ -92,3 +92,4 @@ print("Current Academic Load:", academic_load, "weekly commitments")
 print("Entertainment Backlog:", len(entertainment_backlog), "items")
 print("Current Hobbies:", len(hobbies), "activities")
 print("================================================================")
+
